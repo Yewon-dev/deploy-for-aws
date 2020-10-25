@@ -217,4 +217,8 @@ dmypy.json
 pyvenv.cfg
 pip-selfcheck.json
 
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
 # End of https://www.toptal.com/developers/gitignore/api/django,python,venv
